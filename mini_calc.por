@@ -1,4 +1,4 @@
-// mini_calc: Realiza uma op basica(escolha do user) entre dois algarismos.
+// mini_calc: Realiza uma op basica(escolha do user) entre algarismos.
 programa {
   funcao inicio() {
     
@@ -25,7 +25,7 @@ programa {
     }
     senao se (op == 2){
       resultado = alg1 - alg2
-      escreva("\nA subtração e: ", resultado)
+      escreva("\nA subtraÃ§Ã£o e: ", resultado)
     }
     senao se (op == 3){
       resultado = alg1 * alg2
